@@ -4,17 +4,20 @@
     android:orientation="vertical"
     android:padding="3pt"
     android:layout_height="match_parent">
+
     <ImageView
         android:id="@+id/iv_pelicula"
         android:layout_width="113dp"
         android:layout_height="85dp"
         android:layout_gravity="center"
-        android:src="@drawable/bones"
-        />
-<TextView
-    android:layout_width="match_parent"
-    android:layout_height="wrap_content"
-android:text="BONES"
-android:textSize="15sp"
-android:gravity="center"    />
+        android:src="@drawable/bones" />
+
+    <TextView
+        android:id="@+id/tv_nombre_pelicula"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="BONES"
+        android:textSize="15sp"
+        android:gravity="center" />
+
 </LinearLayout>
